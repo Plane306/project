@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: model.dao.FamilyManagerTest
 -------------------------------------------------------------------------------
-Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.109 s -- in model.dao.FamilyManagerTest
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.158 s -- in model.dao.FamilyManagerTest
