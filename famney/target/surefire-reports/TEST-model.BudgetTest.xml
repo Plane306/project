@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="model.BudgetTest" time="0.066" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="model.BudgetTest" time="0.075" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\flyin\Famney\famney\target\test-classes;C:\Users\flyin\Famney\famney\target\classes;C:\Users\flyin\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\flyin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\flyin\.m2\repository\org\postgresql\postgresql\42.7.5\postgresql-42.7.5.jar;C:\Users\flyin\.m2\repository\org\checkerframework\checker-qual\3.48.3\checker-qual-3.48.3.jar;C:\Users\flyin\.m2\repository\org\xerial\sqlite-jdbc\3.49.1.0\sqlite-jdbc-3.49.1.0.jar;C:\Users\flyin\.m2\repository\jakarta\servlet\jakarta.servlet-api\6.1.0\jakarta.servlet-api-6.1.0.jar;C:\Users\flyin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.3\junit-jupiter-api-5.11.3.jar;C:\Users\flyin\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\flyin\.m2\repository\org\junit\platform\junit-platform-commons\1.11.3\junit-platform-commons-1.11.3.jar;C:\Users\flyin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\flyin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.3\junit-jupiter-engine-5.11.3.jar;C:\Users\flyin\.m2\repository\org\junit\platform\junit-platform-engine\1.11.3\junit-platform-engine-1.11.3.jar;C:\Users\flyin\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;"/>
+    <property name="java.class.path" value="C:\Users\flyin\project\famney\target\test-classes;C:\Users\flyin\project\famney\target\classes;C:\Users\flyin\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\flyin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\flyin\.m2\repository\org\postgresql\postgresql\42.7.5\postgresql-42.7.5.jar;C:\Users\flyin\.m2\repository\org\checkerframework\checker-qual\3.48.3\checker-qual-3.48.3.jar;C:\Users\flyin\.m2\repository\org\xerial\sqlite-jdbc\3.49.1.0\sqlite-jdbc-3.49.1.0.jar;C:\Users\flyin\.m2\repository\jakarta\servlet\jakarta.servlet-api\6.1.0\jakarta.servlet-api-6.1.0.jar;C:\Users\flyin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.3\junit-jupiter-api-5.11.3.jar;C:\Users\flyin\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\flyin\.m2\repository\org\junit\platform\junit-platform-commons\1.11.3\junit-platform-commons-1.11.3.jar;C:\Users\flyin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\flyin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.3\junit-jupiter-engine-5.11.3.jar;C:\Users\flyin\.m2\repository\org\junit\platform\junit-platform-engine\1.11.3\junit-platform-engine-1.11.3.jar;C:\Users\flyin\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;"/>
     <property name="java.vm.vendor" value="Microsoft"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="AU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Microsoft\jdk-21.0.4.7-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\flyin\AppData\Local\Temp\surefire4778523787886097466\surefirebooter-20251017131901516_3.jar C:\Users\flyin\AppData\Local\Temp\surefire4778523787886097466 2025-10-17T13-19-01_308-jvmRun1 surefire-20251017131901516_1tmp surefire_0-20251017131901516_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\flyin\AppData\Local\Temp\surefire10669249732122039055\surefirebooter-20251017133554065_3.jar C:\Users\flyin\AppData\Local\Temp\surefire10669249732122039055 2025-10-17T13-35-53_862-jvmRun1 surefire-20251017133554065_1tmp surefire_0-20251017133554065_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\flyin\Famney\famney\target\test-classes;C:\Users\flyin\Famney\famney\target\classes;C:\Users\flyin\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\flyin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\flyin\.m2\repository\org\postgresql\postgresql\42.7.5\postgresql-42.7.5.jar;C:\Users\flyin\.m2\repository\org\checkerframework\checker-qual\3.48.3\checker-qual-3.48.3.jar;C:\Users\flyin\.m2\repository\org\xerial\sqlite-jdbc\3.49.1.0\sqlite-jdbc-3.49.1.0.jar;C:\Users\flyin\.m2\repository\jakarta\servlet\jakarta.servlet-api\6.1.0\jakarta.servlet-api-6.1.0.jar;C:\Users\flyin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.3\junit-jupiter-api-5.11.3.jar;C:\Users\flyin\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\flyin\.m2\repository\org\junit\platform\junit-platform-commons\1.11.3\junit-platform-commons-1.11.3.jar;C:\Users\flyin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\flyin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.3\junit-jupiter-engine-5.11.3.jar;C:\Users\flyin\.m2\repository\org\junit\platform\junit-platform-engine\1.11.3\junit-platform-engine-1.11.3.jar;C:\Users\flyin\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\flyin\project\famney\target\test-classes;C:\Users\flyin\project\famney\target\classes;C:\Users\flyin\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\flyin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\flyin\.m2\repository\org\postgresql\postgresql\42.7.5\postgresql-42.7.5.jar;C:\Users\flyin\.m2\repository\org\checkerframework\checker-qual\3.48.3\checker-qual-3.48.3.jar;C:\Users\flyin\.m2\repository\org\xerial\sqlite-jdbc\3.49.1.0\sqlite-jdbc-3.49.1.0.jar;C:\Users\flyin\.m2\repository\jakarta\servlet\jakarta.servlet-api\6.1.0\jakarta.servlet-api-6.1.0.jar;C:\Users\flyin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.3\junit-jupiter-api-5.11.3.jar;C:\Users\flyin\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\flyin\.m2\repository\org\junit\platform\junit-platform-commons\1.11.3\junit-platform-commons-1.11.3.jar;C:\Users\flyin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\flyin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.3\junit-jupiter-engine-5.11.3.jar;C:\Users\flyin\.m2\repository\org\junit\platform\junit-platform-engine\1.11.3\junit-platform-engine-1.11.3.jar;C:\Users\flyin\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\flyin"/>
     <property name="user.language" value="en"/>
@@ -25,12 +25,12 @@
     <property name="java.version.date" value="2024-07-16"/>
     <property name="java.home" value="C:\Program Files\Microsoft\jdk-21.0.4.7-hotspot"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\flyin\Famney\famney"/>
+    <property name="basedir" value="C:\Users\flyin\project\famney"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\flyin\AppData\Local\Temp\surefire4778523787886097466\surefirebooter-20251017131901516_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\flyin\AppData\Local\Temp\surefire10669249732122039055\surefirebooter-20251017133554065_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.4+7-LTS"/>
@@ -46,7 +46,7 @@
     <property name="java.vendor.url.bug" value="https://github.com/microsoft/openjdk/issues"/>
     <property name="java.io.tmpdir" value="C:\Users\flyin\AppData\Local\Temp\"/>
     <property name="java.version" value="21.0.4"/>
-    <property name="user.dir" value="C:\Users\flyin\Famney\famney"/>
+    <property name="user.dir" value="C:\Users\flyin\project\famney"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -59,7 +59,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testSettersAndGetters" classname="model.BudgetTest" time="0.026"/>
+  <testcase name="testSettersAndGetters" classname="model.BudgetTest" time="0.029"/>
   <testcase name="testBudgetCreation" classname="model.BudgetTest" time="0.002"/>
-  <testcase name="testIsValid" classname="model.BudgetTest" time="0.001"/>
+  <testcase name="testIsValid" classname="model.BudgetTest" time="0.004"/>
 </testsuite>
