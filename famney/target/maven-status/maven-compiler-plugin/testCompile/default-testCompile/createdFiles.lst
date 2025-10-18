@@ -1,7 +1,0 @@
-model\dao\FamilyManagerTest.class
-model\BudgetTest.class
-model\dao\UserManagerTest.class
-model\dao\SavingsGoalManagerTest.class
-model\ExpenseTest.class
-model\dao\CategoryManagerTest.class
-model\dao\TransactionManagerTest.class

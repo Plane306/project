@@ -1,17 +1,48 @@
 package model.dao;
 
 import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.net.URL;
+import java.nio.file.Paths;
 
-// Base class for database configuration
-// Stores connection info for SQLite database
 public abstract class DB {
-    
-    // Database file path - update this to match your project location
-    protected String URL = "jdbc:sqlite:C:/Users/flyin/Famney/famney/database/famney.db";
-    
-    // SQLite JDBC driver
+
+    protected String URL;
     protected String driver = "org.sqlite.JDBC";
-    
-    // Database connection object
     protected Connection conn;
+
+    public DB() {
+        try {
+            // Load the SQLite JDBC driver
+            Class.forName(driver);
+
+            // Step 3: get the database path from resources
+            // Assumes the database is at src/main/resources/database/famney.db
+            URL dbResource = getClass().getClassLoader().getResource("database/famney.db");
+            if (dbResource == null) {
+                throw new RuntimeException("Database file not found in resources!");
+            }
+
+            // Convert URL to absolute file path
+            URL = "jdbc:sqlite:" + Paths.get(dbResource.toURI()).toString();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    // Method to open connection
+    protected void connect() throws SQLException {
+        if (conn == null || conn.isClosed()) {
+            conn = DriverManager.getConnection(URL);
+        }
+    }
+
+    // Method to close connection
+    protected void disconnect() throws SQLException {
+        if (conn != null && !conn.isClosed()) {
+            conn.close();
+        }
+    }
 }
